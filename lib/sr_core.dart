@@ -42,7 +42,7 @@ class SrCore extends StatelessWidget {
         ],
       ),
       decoration: BoxDecoration(
-        color: Color(0xFF111328),
+        //color: Color(0xFF111328),
         borderRadius: BorderRadius.circular(20),
       ),
     );

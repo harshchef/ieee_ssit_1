@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:ieee_ssit/members.dart';
 import 'resuablecard.dart';
-import 'sr_care.dart';
+import 'sr_core.dart';
 
 class BoardMember extends StatefulWidget {
   @override
@@ -12,6 +13,7 @@ class _BoardMemberState extends State<BoardMember> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -85,7 +87,9 @@ class _BoardMemberState extends State<BoardMember> {
         SizedBox(
           height: 50,
         ),
+        
       ],
     );
+    
   }
 }
